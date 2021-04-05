@@ -228,9 +228,13 @@ function Home() {
     if (valid) {
       if (isSignUp) {
         let data = {};
+        setLoader(true);
         await api
           .signUp(signUpData)
-          .then((res) => (data = res.data))
+          .then((res) => {
+            data = res.data;
+            setLoader(false);
+          })
           .catch((err) => console.log(err));
 
         if (data.status === "success") {
