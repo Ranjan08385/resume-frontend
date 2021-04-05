@@ -1,0 +1,33 @@
+.personalDetails {
+  height: 80vh;
+}
+
+.personalDetails_sec {
+  /* border: 1px solid red; */
+  width: 70%;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.personalDetails_title {
+  border-bottom: 1px solid #bec0c2;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.personalDetails_form {
+  padding: 25px;
+}
+
+.personalDetails_textInput {
+}
+
+.personalDetails_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.personalDetails_next {
+  margin-top: 20px;
+  text-align: right;
+}

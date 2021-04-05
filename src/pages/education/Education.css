@@ -1,0 +1,39 @@
+.education {
+  width: 70%;
+  margin: auto;
+  /* height: 80vh; */
+}
+
+.education_title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid #bec0c2;
+}
+
+.education_sec {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.education_render {
+  margin-bottom: 10px;
+}
+
+.education_add {
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.education_next {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education_link {
+  text-decoration: none;
+}

@@ -1,0 +1,138 @@
+.resume_main {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.resume_title {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #bec0c2;
+}
+
+.resume_container {
+  /* border: 1px solid #bec0c2; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 30px 20px rgb(0 0 0 / 8%);
+}
+
+.resume_about {
+  width: 100%;
+  display: flex;
+}
+
+.resume_leftSide {
+  flex: 0.3;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume_leftSide > h2 {
+  padding: 20px;
+  border: 3px solid rgb(56, 52, 52);
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume_rightSide {
+  flex: 0.7;
+  padding: 20px;
+}
+
+.resume_name {
+  margin-bottom: 10px;
+}
+
+.resume_name > h2 {
+  margin-bottom: 5px;
+}
+
+.resume_subhead {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.resume_objective {
+  margin-top: 10px;
+}
+
+.resume_contact {
+  font-size: 14px;
+}
+
+.resume_experiance {
+  flex: 1;
+  display: flex;
+}
+
+.resume_exp_leftSide {
+  flex: 0.3;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.resume_exp_rightSide {
+  flex: 0.7;
+  padding: 20px;
+}
+
+.resume_skills {
+  flex: 1;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.resume_skill_name {
+  flex: 0.5;
+  font-weight: bold;
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+.resume_skill_perc {
+  flex: 0.5;
+  font-size: 12px;
+}
+
+.resume_backAndNext {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Print_btn {
+  border: 1px solid #3f51b5;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: #3f51b5;
+}
+
+.resume_bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.resume_bold_head {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.resume_bold_logo {
+  font-weight: bold;
+  font-size: 30px;
+}

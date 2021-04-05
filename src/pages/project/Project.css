@@ -1,0 +1,33 @@
+.project_main {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.project_title {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bec0c2;
+}
+
+.project_sec {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.project_add {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.project_backAndNext {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project_container {
+  margin-top: 50px;
+}
