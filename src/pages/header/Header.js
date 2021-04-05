@@ -16,7 +16,7 @@ function Header() {
   const { addToast } = useToasts();
 
   const logout = () => {
-    // dispatch({ type: LOGOUT });
+    dispatch({ type: LOGOUT });
     addToast("Logged out successfully", {
       appearance: `success`,
       autoDismiss: true,
